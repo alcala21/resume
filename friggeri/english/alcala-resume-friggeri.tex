@@ -1,0 +1,245 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Friggeri Resume/CV
+% XeLaTeX Template
+% Version 1.2 (3/5/15)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Adrien Friggeri (adrien@friggeri.net)
+% https://github.com/afriggeri/CV
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important notes:
+% This template needs to be compiled with XeLaTeX and the bibliography, if used,
+% needs to be compiled with biber rather than bibtex.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{../friggeri-cv} % Add 'print' as an option into the square bracket to remove colors from this template for printing
+
+\usepackage{biblatex}
+\addbibresource{../../bib/alcala-bibliography} % Specify the bibliography file to include publications
+
+\RequirePackage{marvosym}
+\hypersetup{
+	hidelinks=true
+}
+
+\begin{document}
+
+\header{Carlos Felipe}{Alcala Perez}{Senior Research Engineer} % Your name and current job title/field
+
+%----------------------------------------------------------------------------------------
+%	SIDEBAR SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{aside} % In the aside, each new line forces a line break
+\section{contact}
+507 E. Michigan St,
+Milwaukee, Wisconsin 53202
+USA
+~
+\includegraphics[width = 8pt]{../../figures/google-icon.png}~ +1 (213) 863 5845
+\Mobilefone~ +1 (414) 426 6814
+\Telefon~ +1 (414) 524 5886
+~
+\href{mailto:alcala21@gmail.com}{alcala21@gmail.com}
+% \href{http://www.smith.com}{http://www.smith.com}
+% \href{http://facebook.com/johnsmith}{fb://jsmith}
+\section{languages}
+spanish (native)
+english (fluent)
+\section{programming}
+{\color{red} $\varheartsuit$} R
+Python, Matlab,
+\LaTeX, RMarkdown,
+VBA \& C\#
+\end{aside}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{education}
+
+\begin{entrylist}
+
+%------------------------------------------------
+
+\entry
+{2007--2011}
+{Doctor of Philosophy {\normalfont in Chemical Engineering}}
+{\flushright \href{http://chems.usc.edu}{University of Southern California.} Los Angeles, California.}
+% {Dissertation about fault detection and diagnosis.}
+
+%------------------------------------------------
+
+\entry
+{2005--2007}
+{Master of Science {\normalfont in Chemical Engineering}}
+{\flushright \href{http://www.che.utexas.edu/}{The University of Texas at Austin.}
+Austin, Texas.}
+% {\emph{Money Is The Root Of All Evil -- Or Is It?} \\ This thesis explored the idea that money has been the cause of untold anguish and suffering in the world. I found that it has, in fact, not.}
+
+%------------------------------------------------
+
+\entry
+{1999--2004}
+{Bachelor of Science {\normalfont in Chemical Engineering}}
+{\flushright \href{http://www.itcm.edu.mx/}{Technological Institute of Ciudad Madero}.
+Ciudad Madero, Mexico}
+{Summa Cum Laude.}
+
+%------------------------------------------------
+
+\end{entrylist}
+
+
+%----------------------------------------------------------------------------------------
+%	RESEARCH INTERESTS
+%----------------------------------------------------------------------------------------
+\section{research interests}
+Multivariate Statistical Fault Detection and Diagnosis, Data Analysis, Machine Learning, Tuning and Monitoring of PID Controllers
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{experience}
+
+\subsection{Full Time}
+
+\begin{entrylist}
+
+%------------------------------------------------
+
+\entry
+{2011 -- Now}
+{\href{http://www.johnsoncontrols.com}{Johnson Controls, Inc}}
+{Milwaukee, Wisconsin.}
+{
+\emph{Senior Research Engineer}
+\begin{itemize}
+\item Developed data-driven methods for fault detection and diagnosis in connected chillers. A patent was filed.
+\item Developed a method for adaptive sampling of PID controllers. A patent was granted.
+\item Developed methods for monitoring the performance of PID controllers. A patent was filed.
+\end{itemize}
+}
+%------------------------------------------------
+
+\end{entrylist}
+
+\subsection{Internships}
+
+\begin{entrylist}
+
+\entry
+{2010}
+{\href{http://www.dow.com/}{The Dow Chemical Company}}
+{Freeport, Texas}
+{\emph{Summer Research Intern} \\
+Developed an Excel application for multivariate statistical monitoring of continuous and batch processes.}
+
+%------------------------------------------------
+
+\entry
+{\begin{minipage}[t]{2cm}2009 \\ 2007 \\ 2006\end{minipage}}
+{\href{http://www.capstonetechnology.com}{Capstone Technology}}
+{Seattle, Washington}
+{\emph{Summer Engineering Intern}
+\begin{itemize}
+	\item Developed a multivariate image analysis application to monitor combustion efficiency in furnaces.
+	\item Developed a PLS application for statistical modeling of chemical processes.
+	\item Developed a PCA application for detection and diagnosis of sensor and process faults.
+\end{itemize}}
+
+%------------------------------------------------
+
+\entry
+{2008}
+{NMC North Microelectronics}
+{Beijing, China}
+{\emph{Summer Engineering Intern}
+\begin{itemize}
+	\item Developed a PCA application for monitoring the operation of a semiconductor manufacturing process.
+\end{itemize}}
+
+%------------------------------------------------
+
+
+
+
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{awards}
+
+\begin{entrylist}
+
+%------------------------------------------------
+
+\entry
+{2015}
+{1st Place at the 2015 BE TechChallenge}
+{Building Efficiency, Johnson Controls Inc.}
+{I won the annual company-wide innovation competition at JCI.}
+
+\entry
+{2007}
+{\href{http://www.robertorocca.org/en/fellowships/fellows07.aspx}{Roberto Rocca Education Program Fellowship}}
+{University of Southern California}
+{I was awarded a fellowship to do my PhD at USC.}
+
+\entry
+{2005}
+{Fulbright Scholarship}
+{University of Texas at Austin}
+{I was awarded the Fulbright scholarship to do my Masters at UT Austin.}
+
+%------------------------------------------------
+
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+% \section{interests}
+
+% \textbf{professional:} data analysis, company profiling, risk analysis, economics, web design, web app creation, software design, marketing \textbf{personal:} piano, chess, cooking, dancing, running
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{publications}
+
+\printbibsection{misc}{Patents} % Print all miscellaneous entries from the bibliography
+
+\printbibsection{article}{Journal Papers} % Print all articles from the bibliography
+
+\printbibsection{inproceedings}{Conference Papers} % Print all books from the bibliography
+
+% \begin{refsection} % This is a custom heading for those references marked as "inproceedings" but not containing "keyword=france"
+% \nocite{*}
+% \printbibliography[sorting=chronological, type=inproceedings, title={international peer-reviewed conferences/proceedings}, notkeyword={france}, heading=bibheading]
+% \end{refsection}
+
+% \begin{refsection} % This is a custom heading for those references marked as "inproceedings" and containing "keyword=france"
+% \nocite{*}
+% \printbibliography[sorting=chronological, type=inproceedings, title={local peer-reviewed conferences/proceedings}, keyword={france}, heading=bibheading]
+% \end{refsection}
+
+
+
+% \printbibsection{report}{research reports} % Print all research reports from the bibliography
+
+%----------------------------------------------------------------------------------------
+
+\end{document}

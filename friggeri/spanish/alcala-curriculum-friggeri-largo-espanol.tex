@@ -1,0 +1,394 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Friggeri Resume/CV
+% XeLaTeX Template
+% Version 1.2 (3/5/15)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Adrien Friggeri (adrien@friggeri.net)
+% https://github.com/afriggeri/CV
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important notes:
+% This template needs to be compiled with XeLaTeX and the bibliography, if used,
+% needs to be compiled with biber rather than bibtex.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{friggeri-cv} % Add 'print' as an option into the square bracket to remove colors from this template for printing
+
+\addbibresource{alcala-bibliography.bib} % Specify the bibliography file to include publications
+\usepackage[spanish]{babel}
+
+\RequirePackage{marvosym}
+\hypersetup{
+	hidelinks=true
+}
+
+\begin{document}
+
+\header{Carlos Felipe}{Alcalá Pérez}{} % Your name and current job title/field
+
+%----------------------------------------------------------------------------------------
+%	SIDEBAR SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{aside} % In the aside, each new line forces a line break
+\section{contacto}
+\Letter~ 507 E. Michigan St, B7F4
+Milwaukee, Wisconsin 53202
+USA
+~
+\includegraphics[width = 8pt]{google-icon.png}~ +1 (213) 863 5845
+\Mobilefone~ +1 (414) 426 6814
+\Telefon~ +1 (414) 524 5886
+~
+\href{mailto:alcala21@gmail.com}{alcala21@gmail.com}
+% \href{http://www.smith.com}{http://www.smith.com}
+% \href{http://facebook.com/johnsmith}{fb://jsmith}
+\section{idiomas}
+Español (nativo)
+Inglés (fluido)
+\section{lenguages de programación}
+{\color{red} $\varheartsuit$} R
+Matlab, Python,
+\LaTeX, RMarkdown,
+VBA \& C\#
+\end{aside}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{educación}
+
+\begin{entrylist}
+
+%------------------------------------------------
+
+\entry
+{2007--2011}
+{Doctorado en Filosofía {\normalfont en Ingeniería Química}}
+{\flushright \href{http://chems.usc.edu}{Universidad del Sur de California.} Los Angeles, California.}
+% {Dissertation about fault detection and diagnosis.}
+
+%------------------------------------------------
+
+\entry
+{2005--2007}
+{Maestría en Ciencias {\normalfont en Ingeniería Química}}
+{\flushright \href{http://www.che.utexas.edu/}{Universidad de Texas en Austin.}
+Austin, Texas.}
+% {\emph{Money Is The Root Of All Evil -- Or Is It?} \\ This thesis explored the idea that money has been the cause of untold anguish and suffering in the world. I found that it has, in fact, not.}
+
+%------------------------------------------------
+
+\entry
+{1999--2004}
+{Licenciatura {\normalfont en Ingeniería Química}}
+{\flushright \href{http://www.itcm.edu.mx/}{Instituto Tecnológico de Ciudad Madero}.
+Ciudad Madero, México}
+
+\entry
+{1996--1999}
+{Bachillerato Tecnológico {\normalfont en Química Industrial}}
+{\flushright {Centro de Estudios Tecnológicos Industrial y de Servicios No. 78}.
+Altamira, México}
+
+%------------------------------------------------
+
+\end{entrylist}
+
+
+%----------------------------------------------------------------------------------------
+%	RESEARCH INTERESTS
+%----------------------------------------------------------------------------------------
+% \section{research interests}
+% Multivariate Statistical Fault Detection and Diagnosis, Data Analysis, Machine Learning, Tuning and Monitoring of PID Controllers
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{experiencia laboral}
+
+\subsection{tiempo completo}
+
+\begin{entrylist}
+
+%------------------------------------------------
+
+\entry
+{2011 -- Presente}
+{\href{http://www.johnsoncontrols.com}{Johnson Controls, Inc}}
+{Milwaukee, Wisconsin.}
+{
+\emph{Ingeniero de Investigación Nivel Senior}
+\begin{itemize}
+	\item Desarrollo métodos estadísticos para la detección y diagnóstico de fallas en equipos de aire acondicionado.
+	\item Desarrollo métodos para el ajuste automático del sampleo en controladores PID.
+	\item Desarrollo métodos para el monitoreo del rendimiento de controladores PID.
+	\item Desarrollo métodos estadístico para la detección de estados estacionarios en procesos termodinámicos.
+	\item Desarrollo métodos estadísticos para construir de manera recursiva y adaptable modelos basados en análisis de componentes principales (PCA).
+	\item Desarrollo de métodos para desacoplar la interacción entre controladores PI.
+\end{itemize}
+}
+%------------------------------------------------
+
+\end{entrylist}
+
+\newpage
+
+\subsection{prácticas}
+
+\begin{entrylist}
+
+\entry
+{2010}
+{\href{http://www.dow.com/}{The Dow Chemical Company}}
+{Freeport, Texas}
+{\emph{Practicante de Investigación en el Verano} \\
+Desarrollé una aplicación en Excel para el monitoreo de procesos contínuos y en batch usando métodos estadísticos multivariables.}
+
+%------------------------------------------------
+
+\entry
+{\begin{minipage}[t]{2cm}2009 \\ 2007 \\ 2006\end{minipage}}
+{\href{http://www.capstonetechnology.com}{Capstone Technology}}
+{Seattle, Washington}
+{\emph{Practicante de Ingeniería en el Verano}
+\begin{itemize}
+	\item Desarrollé una aplicación para el monitoreo de la eficiencia de combustión en hornos usando análisis estadístico multivariable de imágenes.
+	\item Desarrollé una aplicación para el modelado estadístico de procesos químicos usando mínimos cuadrados parciales.
+	\item Desarrollé una aplicación para la detección y el diagnóstico de fallas en sensores y procesos químicos usando el método estadístico de análisis de componentes principales.
+\end{itemize}}
+
+%------------------------------------------------
+
+\entry
+{2008}
+{NMC North Microelectronics}
+{Beijing, China}
+{\emph{Practicante de Ingeniería en el Verano}
+\begin{itemize}
+	\item Desarrollé una aplicación para el monitoreo de la operación de un proceso de manufacturación de semiconductores usando el método estadístico de análisis de componentes principales.
+\end{itemize}}
+
+%------------------------------------------------
+
+
+
+
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	PATENTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{patentes y publicaciones}
+
+\printbibsection{misc}{patentes} % Print all miscellaneous entries from the bibliography
+
+\printbibsection{article}{artículos en revistas indexadas} % Print all articles from the bibliography
+
+\printbibsection{inproceedings}{artículos en congresos} % Print all books from the bibliography
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{premios}
+
+\subsection{profesional}
+
+\begin{entrylist}
+
+%------------------------------------------------
+
+\entry
+{2015}
+{1er Lugar en el TechChallenge de Building Efficiency 2015}
+{Johnson Controls}
+{El TechChallenge de Building Efficiency es una competencia anual de innovación en la compañía Johnson Controls. Los proyectos finalistas se exponen ante una audiencia y se emiten votos para elegir al ganador.}
+
+\end{entrylist}
+
+\subsection{doctorado}
+
+
+\begin{entrylist}
+
+\entry
+{2007}
+{\href{http://www.robertorocca.org/en/fellowships/fellows07.aspx}{Beca Roberto Rocca}}
+{}
+{Beca que otorga la Fundación Roberto Rocca para estudiantes de Doctorado.}
+\end{entrylist}
+
+\newpage
+
+\subsection{maestría}
+
+\begin{entrylist}
+
+\entry
+{2006}
+{Beca David J. Bruton}
+{}
+{Beca que otorga la Fundación David J. Bruton para estudiantes de postgrado en la Facultad de Ingeniería de la Universidad de Texas.}
+
+\entry
+{2005}
+{Beca de la Facultad de Ingeniería de UT Austin}
+{}
+{Beca de la Faculta de Ingeniería de la Universidad de Texas a estudiantes de postgrado.}
+
+\entry
+{2005}
+{Beca Fulbright}
+{}
+{Beca que otorga el gobierno de los Estados Unidos para que estudiantes extranjeros hagan estudios de postgrado en ese país. Es una de las becas más prestigiosas.}
+
+
+\end{entrylist}
+
+\subsection{licenciatura}
+
+\begin{entrylist}
+
+\entry
+{2004}
+{Mejor promedio en Ingeniería Química}
+{Ciudad Madero, Tamaulipas}
+{Instituto Tecnológico de Ciudad Madero}
+
+\entry
+{2003}
+{1er Lugar en Química}
+{Los Mochis, Sinaloa}
+{Concurso Nacional de Ciencias Básicas de los Institutos Tecnológicos}
+
+\entry
+{2003}
+{1er Lugar Global en Física, Química y Matemáticas}
+{Matehuala, San Luis Potosí}
+{Concurso Regional de Ciencias Básicas de los Institutos Tecnológicos}
+
+
+\entry
+{2002}
+{1er Lugar Global en Física, Química y Matemáticas}
+{Jiquilpan, Michoacán}
+{Concurso Nacional de Ciencias Básicas de los Institutos Tecnológicos}
+
+\entry
+{2002}
+{1er Lugar Global en Física, Química y Matemáticas}
+{Piedras Negras, Coahuila}
+{Concurso Regional de Ciencias Básicas de los Institutos Tecnológicos}
+
+\entry
+{2001}
+{1er Lugar en Física}
+{Linares, Nuevo León}
+{Concurso Regional de Ciencias Básicas de los Institutos Tecnológicos}
+
+\entry
+{2000}
+{1er Lugar en Física}
+{Saltillo, Coahuila}
+{Concurso Regional de Ciencias Básicas de los Institutos Tecnológicos}
+
+%------------------------------------------------
+
+\end{entrylist}
+
+\subsection{bachillerato}
+
+\begin{entrylist}
+
+	\entry
+	{1999}
+	{Mejor promedio de generación}
+	{Altamira, Tamaulipas}
+	{Centro de Estudios Tecnológicos Industrial y de Servicios No. 78}
+
+	\entry
+	{1999}
+	{2do Lugar en Física}
+	{Ciudad de México}
+	{Concurso Nacional de Ciencias de la DGETI.}
+
+	\entry
+	{1999}
+	{1er Lugar en Física}
+	{Tamaulipas}
+	{Concurso Estatal de Ciencias de la DGETI}
+
+	\entry
+	{1998}
+	{1er Lugar en Física}
+	{Durango}
+	{Olimpíada Nacional de Física}
+
+	\entry
+	{1998}
+	{Abanderado del Equipo Mexicano de Física}
+	{Mérida, Venezuela}
+	{Olimpíada Iberoamericana de Física}
+
+	\entry
+	{1998}
+	{1er Lugar en Física}
+	{Tamaulipas}
+	{Concurso Estatal de Ciencias de la DGETI}
+
+	\entry
+	{1997}
+	{8vo Lugar en Física}
+	{Puebla}
+	{Olimpíada Nacional de Física}
+
+	\entry
+	{1997}
+	{3er Lugar en Física}
+	{Tamaulipas}
+	{Olimpíada Estatal de Física}
+
+
+\end{entrylist}
+
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+% \section{interests}
+
+% \textbf{professional:} data analysis, company profiling, risk analysis, economics, web design, web app creation, software design, marketing \textbf{personal:} piano, chess, cooking, dancing, running
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS SECTION
+%----------------------------------------------------------------------------------------
+
+
+% \begin{refsection} % This is a custom heading for those references marked as "inproceedings" but not containing "keyword=france"
+% \nocite{*}
+% \printbibliography[sorting=chronological, type=inproceedings, title={international peer-reviewed conferences/proceedings}, notkeyword={france}, heading=bibheading]
+% \end{refsection}
+
+% \begin{refsection} % This is a custom heading for those references marked as "inproceedings" and containing "keyword=france"
+% \nocite{*}
+% \printbibliography[sorting=chronological, type=inproceedings, title={local peer-reviewed conferences/proceedings}, keyword={france}, heading=bibheading]
+% \end{refsection}
+
+
+
+% \printbibsection{report}{research reports} % Print all research reports from the bibliography
+
+%----------------------------------------------------------------------------------------
+
+\end{document}

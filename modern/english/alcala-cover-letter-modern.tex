@@ -1,0 +1,97 @@
+\documentclass[11pt]{article}
+
+
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{marvosym}
+\usepackage{ifpdf}
+\ifpdf
+  \usepackage[pdftex]{graphicx}
+\else
+  \usepackage[dvips]{graphicx}\fi
+
+\pagestyle{empty}
+
+\usepackage[scale=0.775]{geometry}
+\setlength{\parindent}{0pt}
+\addtolength{\parskip}{6pt}
+
+\def\firstname{Carlos}
+\def\familyname{Alcala}
+\def\FileAuthor{\firstname \familyname}
+\def\FileTitle{\firstname \familyname's cover letter}
+\def\FileSubject{Cover letter}
+\def\FileKeyWords{\firstname \familyname, Cover letter}
+
+\renewcommand{\ttdefault}{pcr}
+
+\usepackage{url}
+\urlstyle{tt}
+\ifpdf
+  \usepackage[pdftex,pdfborder=0,breaklinks,baseurl=http://,pdfpagemode=None,pdfstartview=XYZ,pdfstartpage=1]{hyperref}
+  \hypersetup{
+    pdfauthor   = \FileAuthor,%
+    pdftitle    = \FileTitle,%
+    pdfsubject  = \FileSubject,%
+    pdfkeywords = \FileKeyWords,%
+    pdfcreator  = \LaTeX,%
+    pdfproducer = \LaTeX}
+\else
+  \usepackage[dvips]{hyperref}
+\fi
+
+
+\begin{document}
+\sffamily   % for use with a résumé using sans serif fonts;
+%\rmfamily  % for use with a résumé using serif fonts;
+\hfill%
+\begin{minipage}[t]{.6\textwidth}
+\raggedleft%
+{\bfseries Carlos F. Alcala}\\[.35ex]
+\small\itshape%
+925 Bloom Walk, HED 216\\
+Los Angeles, CA, 90089\\[.35ex]
+\Mobilefone~213 863 5845\\
+\Letter~\href{mailto:alcalape@usc.edu}{alcalape@usc.edu}
+\end{minipage}\\[1em]
+%
+\begin{minipage}[t]{.6\textwidth}
+\raggedright%
+{\bfseries Center for Interactive and Smart Oil field Technologies}\\[.35ex]
+\small\itshape%
+USC Viterbi School of Engineering\\
+
+\end{minipage}
+\hfill % US style
+%\\[1em] % UK style
+\begin{minipage}[t]{.35\textwidth}
+\raggedleft % US style
+\today
+%April 6, 2006 % US informal style
+%05/04/2006 % UK formal style
+\end{minipage}\\[2em]
+\raggedright
+Dear Sir or Madam:\\[1.5em]
+%
+
+I am a graduate student pursuing a Ph.D. degree at the Mork Family Deparment of Chemical Engineering and Materials Science in the University of Southern California (USC). I obtained my Masters Degree in Chemical Engineering from the University of Texas at Austin, under the supervision of Professor Joe Qin, and moved to USC when he moved there. Prior to enrolling in the Masters program at Texas, I got my bachelors degree in Chemical Engineering from the Technological Institute of Ciudad Madero, in Mexico.
+
+At USC, my research is focused on developing new techniques for the correct detection and diagnosis of process and sensor faults using statistical methods. This is a research area that is gaining wide application in several industries like the semiconductor, paper, steel and oil industries, among others. This research area is important since, in an industrial plant, production can be severely affected if there are equipment or process failures. If these failures, or faults, are detected and identified as soon as they happen, their effects and costs on the plant can be minimized. These strategies can not only increase the profitability and safety of the plant, but also the quality of its products. The methods employed in my research can not only be used for fault detection and diagnosis, but for process modeling and prediction, too. Therefore, these methods can have a wide range of applications in an industrial environment. 
+
+The work done up to date has given good results, and have already produced two papers, published at important journals; there are also more papers coming out soon. Furthermore, I have presented several papers with my research advisor at conferences in Seoul, Korea; Philadelphia, Pennsylvania; and Barcelona, Spain. Besides my academic learning, I have gained practical experience by performing several internships in different companies in Seattle and Beijing. These internships gave me the opportunity to learn how to develop and deploy research projects into industrial applications.
+
+I have been working with CiSoft in the project \emph{PID Controller Performance Diagnosis and Improvement}. My Chevron champion is Michael Barham, who is located at Houston ETC, 1400 Smith St, Houston, Texas; with the Bussiness Unit of Process Automation.
+
+I hope I can be given the opportunity to apply my research and industrial experience to the Process Automation unit in Chevron; also, I hope an internship there can provide with new exciting experiences.
+
+%Yours sincerely,\\[2em] % if the opening is "Dear Mr(s) Doe,"
+Yours faithfully,\\[2em] % if the opening is "Dear Sir or Madam,"
+%
+%\includegraphics[scale=0.75]{signature_blue}\\
+{\bfseries Carlos F. Alcala}\\
+%
+\vfill%
+%{\slshape Enclosure}
+{\slshape Attachment: curriculum vit\ae{}}
+\end{document}
