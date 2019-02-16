@@ -1,6 +1,7 @@
-\ProvidesClass{friggeri-cv}[2012/04/30 CV class]
+\ProvidesClass{friggeri-cv-a4}[2015/10/22 CV class]
 \NeedsTeXFormat{LaTeX2e}
 
+\DeclareOption{nocolors}{\def\@cv@nocolors{}}
 \DeclareOption{print}{\def\@cv@print{}}
 \DeclareOption*{%
   \PassOptionsToClass{\CurrentOption}{article}%
@@ -8,6 +9,11 @@
 \ProcessOptions\relax
 \LoadClass{article}
 
+% set A4 paper format
+% \setlength\paperheight {297mm}
+% \setlength\paperwidth  {210mm}
+
+\ProcessOptions
 
 %%%%%%%%%%
 % Colors %
@@ -24,7 +30,7 @@
 \definecolor{green}{HTML}{C2E15F}
 \definecolor{orange}{HTML}{FDA333}
 \definecolor{purple}{HTML}{D3A4F9}
-\definecolor{red}{HTML}{FB4485}
+\definecolor{red}{HTML}{DC3522}
 \definecolor{blue}{HTML}{6CE0F1}
 
 \ifdefined\@cv@print
@@ -43,22 +49,44 @@
 \colorlet{textcolor}{gray}
 \colorlet{headercolor}{gray}
 
+\ifdefined\@cv@nocolors
+  \colorlet{green}{gray}
+  \colorlet{rdfgreen}{gray}
+  \colorlet{orange}{gray}
+  \colorlet{rdforange}{gray}
+  \colorlet{purple}{gray}
+  \colorlet{rdfpurple}{gray}
+  \colorlet{brown}{gray}
+  \colorlet{red}{gray}
+  \colorlet{blue}{gray}
+\fi
+
 %%%%%%%%%
 % Fonts %
 %%%%%%%%%
 
 \RequirePackage[quiet]{fontspec}
-\RequirePackage[math-style=TeX,vargreek-shape=unicode]{unicode-math}
+\RequirePackage{unicode-math}
 
-\newfontfamily\bodyfont[]{Roboto-Regular}
-\newfontfamily\thinfont[]{Roboto-Thin}
-\newfontfamily\headingfont[]{Roboto-Medium}
-\newfontfamily\positionfont[]{Roboto-LightItalic}
+\newfontfamily\bodyfont
+[BoldFont=texgyreheros-bold.otf,
+ItalicFont=texgyreheros-italic.otf,
+BoldItalicFont=texgyreheros-bolditalic.otf]
+{texgyreheros-regular.otf}
+\newfontfamily\thinfont[]{Lato-Light.ttf}
+\newfontfamily\headingfont[]{texgyreheros-bold.otf}
 
 \defaultfontfeatures{Mapping=tex-text}
-\setmainfont[Mapping=tex-text, Color=textcolor]{Roboto-Light}
+\setmainfont
+[Mapping=tex-text, Color=textcolor,
+BoldFont=texgyreheros-bold.otf,
+ItalicFont=texgyreheros-italic.otf,
+BoldItalicFont=texgyreheros-bolditalic.otf
+]
+{texgyreheros-regular.otf}
 
-%\setmathfont{XITS Math}
+\setmathfont{texgyreheros-regular.otf}
+%%%
 
 %%%%%%%%%%
 % Header %
@@ -99,17 +127,33 @@
   {%
     \color{%
       \ifcase\value{colorCounter}%
-        blue\or%
         red\or%
-        orange\or%
-        green\or%
-        purple\or%
-        brown\else%
+        red\or%
+        red\or%
+        red\or%
+        red\or%
+        red\else%
         headercolor\fi%
     } #1#2#3%
   }%
   \stepcounter{colorCounter}%
 }
+
+% \def\@sectioncolor#1#2#3{%
+%   {%
+%     \color{%
+%       \ifcase\value{colorCounter}%
+%         blue\or%
+%         red\or%
+%         orange\or%
+%         green\or%
+%         purple\or%
+%         brown\else%
+%         headercolor\fi%
+%     } #1#2#3%
+%   }%
+%   \stepcounter{colorCounter}%
+% }
 
 \renewcommand{\section}[1]{
   \par\vspace{\parskip}
@@ -140,20 +184,19 @@
 %%%%%%%%%%%%%%%%%%%%
 
 \setlength{\tabcolsep}{0pt}
-\newenvironment{entrylist}{%
-  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}ll}
-}{%
-  \end{tabular*}
+\newenvironment{entrylist}{%  
+}{%  
 }
 \renewcommand{\bfseries}{\headingfont\color{headercolor}}
 \newcommand{\entry}[4]{%
-  #1&\parbox[t]{11.8cm}{%
+\par
+  \noindent\parbox[t]{%
+    \dimexpr\textwidth-10.8cm\relax}{\raggedright #1}\parbox[t]{10.8cm}{%
     \textbf{#2}%
     \hfill%
-    {\footnotesize\addfontfeature{Color=lightgray} #3}\\%
+    {\footnotesize\addfontfeature{Color=lightgray} #3}\par
     #4\vspace{\parsep}%
-  }\\}
-
+  }\par}
 
 %%%%%%%%%%%%%%
 % Side block %
@@ -181,7 +224,7 @@
 % Bibliography %
 %%%%%%%%%%%%%%%%
 
-\RequirePackage[style=verbose, maxnames=99, sorting=ydnt]{biblatex}
+\RequirePackage[backend=biber, style=verbose, maxnames=99, sorting=ydnt]{biblatex}
 
 \DeclareFieldFormat[article]{title}{#1\par}
 \DeclareFieldFormat[book]{title}{#1\par}
@@ -288,7 +331,7 @@
 
 \DeclareNameFormat{author}{%
   \small\addfontfeature{Color=lightgray}%
-  \ifblank{#3}{}{#3\space}#1%
+  \nameparts{#1}\ifblank{\namepartgiven}{}{\namepartgiven\space}\namepartfamily%
   \ifthenelse{\value{listcount}<\value{liststop}}
     {\addcomma\space}
     {}%
@@ -301,8 +344,9 @@
 
 \newcommand{\printbibsection}[2]{
   \begin{refsection}
+    \newrefcontext[sorting=chronological]%
     \nocite{*}
-    \printbibliography[sorting=chronological, type={#1}, title={#2}, heading=bibheading]
+    \printbibliography[type={#1}, title={#2}, heading=bibheading]
   \end{refsection}
 }
 
@@ -317,15 +361,15 @@
 % Other tweaks %
 %%%%%%%%%%%%%%%%
 
-\RequirePackage[left=6.1cm,top=2cm,right=1.5cm,bottom=2.5cm,nohead,nofoot]{geometry}
+\RequirePackage[left=6.1cm,top=2cm,right=2.5cm,bottom=2.5cm,nohead,nofoot]{geometry}
 \RequirePackage{hyperref}
 \hypersetup{
-    colorlinks=false,
-    linkcolor=red,
-    citecolor=red,
-    filecolor=red,
+    colorlinks=false,       
+    linkcolor=red,          
+    citecolor=red,        
+    filecolor=red,      
     urlcolor = red}
-
+    
 % A fix for \href{}{} colors not working with fontspec
 \makeatletter
 \def\HyColor@@@@UseColor#1\@nil{\addfontfeatures{Color=#1}}
