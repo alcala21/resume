@@ -20,13 +20,15 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \documentclass[]{friggeri-cv} % Add 'print' as an option into the square bracket to remove colors from this template for printing
-\usepackage{biblatex}
+% \usepackage[T1]{fontenc}
+\usepackage[backend=biber]{biblatex}
 \addbibresource{../../bib/alcala-bibliography.bib} % Specify the bibliography file to include publications
 
 \RequirePackage{marvosym}
 \hypersetup{
 	hidelinks=true
 }
+% \DeclareTextCommandDefault{\nobreakspace}{\leavevmode\nobreak\ }
 
 \begin{document}
 
@@ -38,14 +40,14 @@
 
 \begin{aside} % In the aside, each new line forces a line break
 \section{contact}
-507 E. Michigan St
-Milwaukee, Wisconsin 53202, USA
+1406 E. Russell Ave, Upper
+Milwaukee, Wisconsin 53207, USA
 ~
 \Mobilefone~ +1 (414) 426 6814
 % \Telefon~ +1 (414) 524 5886
 ~
-% \href{mailto:alcala21@gmail.com}{alcala21@gmail.com}
-\href{mailto:carlos.alcala@jci.com}{carlos.alcala@jci.com}
+\href{mailto:alcala21@gmail.com}{alcala21@gmail.com}
+% \href{mailto:carlos.alcala@jci.com}{carlos.alcala@jci.com}
 \href{https://www.linkedin.com/in/alcala21}{LinkedIn://alcala21}
 \href{https://www.github.com/alcala21}{GitHub://alcala21}
 % \href{http://facebook.com/johnsmith}{fb://jsmith}
@@ -109,7 +111,7 @@ Ciudad Madero, Mexico}
 %	RESEARCH INTERESTS
 %----------------------------------------------------------------------------------------
 \section{research interests}
-Multivariate Statistical Fault Detection and Diagnosis, Data Analysis, Machine Learning, Tuning and Monitoring of PID Controllers, Optimization, Self-optimizing control, Extremum-seeking control
+Data Analytics, Statistical Analysis, Machine Learning, Tuning and Monitoring of PID Controllers, Fault Detection and Diagnosis, Optimization, Self-Optimizing Control, Extremum-Seeking Control
 %----------------------------------------------------------------------------------------
 %	WORK EXPERIENCE SECTION
 %----------------------------------------------------------------------------------------
@@ -129,11 +131,7 @@ Multivariate Statistical Fault Detection and Diagnosis, Data Analysis, Machine L
 {
 \emph{Principal Research Engineer.}
 \begin{itemize}
-	\item I am currently working in the development and implementation of self-optimizing control methods to improve the efficiency of heating, ventilation and air conditioning (HVAC) systems. A patent has been filed.
-	\item I am working in the implementation of artificial intelligence methods to optimize the operation of HVAC systems. A patent has been filed.
-	\item I am involved in the development and transfer of research projects into products and applications.
-   \item I worked in the development of methods to reject pressure disturbances in control valves. A patent was filed.
-
+	\item I am currently working in the development and implementation of methods to improve the efficiency of heating, ventilation and air conditioning (HVAC) systems. I make use of traditional and modern optimization methods, as well as artificial intelligence and machine learning methods. I'm also involved in the transfer of newly developed technology into products and applications.
 \end{itemize}
 }
 \entry
@@ -143,9 +141,7 @@ Multivariate Statistical Fault Detection and Diagnosis, Data Analysis, Machine L
 {
 \emph{Senior Research Engineer}
 \begin{itemize}
-\item Developed methods for monitoring the performance of PID controllers. Three patents were granted.
-\item Developed a method to detect steady state operation in HVAC equipment. A patent was filed.
-\item Developed method to reduce energy consumption in wireless thermostats while keeping acceptable comfort standards. A patent was filed, and another one was granted.
+\item I developed methods for monitoring the performance of PID controllers, to detect steady state operation of HVAC equipment, and reduce energy consumption in wireless thermostats while keeping acceptable comfort standards. I used advanced mathematical tools to develop these methods, as well as artificial intelligence, machine learning and traditional statistical methods.
 \end{itemize}
 }
 
@@ -156,7 +152,7 @@ Multivariate Statistical Fault Detection and Diagnosis, Data Analysis, Machine L
 {
 \emph{Senior Research Engineer}
 \begin{itemize}
-\item Developed data-driven methods for fault detection and diagnosis in connected chillers. A patent was filed.
+\item Developed data-driven methods for fault detection and diagnosis in connected chillers.
 \end{itemize}
 }
 
@@ -167,7 +163,7 @@ Multivariate Statistical Fault Detection and Diagnosis, Data Analysis, Machine L
 {
 \emph{Senior Research Engineer}
 \begin{itemize}
-\item Developed a method for adaptive sampling of PID controllers. A patent was granted.
+\item Developed a method for adaptive sampling of PID controllers.
 \end{itemize}
 }
 %------------------------------------------------
@@ -267,6 +263,7 @@ Developed an Excel application for multivariate statistical monitoring of contin
 \printbibsection{misc}{Patents} % Print all miscellaneous entries from the bibliography
 
 \printbibsection{article}{Journal Papers} % Print all articles from the bibliography
+\enlargethispage*{1cm}
 
 \printbibsection{inproceedings}{Conference Papers} % Print all books from the bibliography
 
