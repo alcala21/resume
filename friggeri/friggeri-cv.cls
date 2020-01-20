@@ -184,8 +184,8 @@ BoldItalicFont=texgyreheros-bolditalic.otf
 %%%%%%%%%%%%%%%%%%%%
 
 \setlength{\tabcolsep}{0pt}
-\newenvironment{entrylist}{%  
-}{%  
+\newenvironment{entrylist}{%
+}{%
 }
 \renewcommand{\bfseries}{\headingfont\color{headercolor}}
 \newcommand{\entry}[4]{%
@@ -364,12 +364,12 @@ BoldItalicFont=texgyreheros-bolditalic.otf
 \RequirePackage[left=6.1cm,top=2cm,right=2.5cm,bottom=2.5cm,nohead,nofoot]{geometry}
 \RequirePackage{hyperref}
 \hypersetup{
-    colorlinks=false,       
-    linkcolor=red,          
-    citecolor=red,        
-    filecolor=red,      
+    colorlinks=false,
+    linkcolor=red,
+    citecolor=red,
+    filecolor=red,
     urlcolor = red}
-    
+
 % A fix for \href{}{} colors not working with fontspec
 \makeatletter
 \def\HyColor@@@@UseColor#1\@nil{\addfontfeatures{Color=#1}}
