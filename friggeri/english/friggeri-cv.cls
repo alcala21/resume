@@ -236,7 +236,7 @@ BoldItalicFont=texgyreheros-bolditalic.otf
 \DeclareFieldFormat[report]{title}{#1\par}
 
 \DeclareBibliographyDriver{article}{%
-  \printfield{title}%
+  \href{\thefield{doi}}{\printfield{title}}%
   \newblock%
   \printnames{author}%
   \par%
@@ -277,7 +277,7 @@ BoldItalicFont=texgyreheros-bolditalic.otf
 
 
 \DeclareBibliographyDriver{inproceedings}{%
-  \printfield{title}%
+  \href{\thefield{doi}}{\printfield{title}}%
   \newblock%
   \printnames{author}%
   \par%
@@ -295,7 +295,7 @@ BoldItalicFont=texgyreheros-bolditalic.otf
 }
 
 \DeclareBibliographyDriver{misc}{%
-  \printfield{title}%
+  \href{\thefield{url}}{\printfield{title}}%
   \newblock%
   \printnames{author}%
   \par%

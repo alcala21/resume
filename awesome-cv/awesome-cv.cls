@@ -749,7 +749,7 @@
 \DeclareFieldFormat[report]{title}{#1\par}
 
 \DeclareBibliographyDriver{article}{%
-  \printfield{title}%
+  \href{\thefield{doi}}{\printfield{title}}%
   \newblock%
   \printnames{author}%
   \par%
@@ -790,7 +790,7 @@
 
 
 \DeclareBibliographyDriver{inproceedings}{%
-  \printfield{title}%
+  \href{\thefield{doi}}{\printfield{title}}%
   \newblock%
   \printnames{author}%
   \par%
@@ -809,7 +809,7 @@
 
 \DeclareBibliographyDriver{misc}{%
   \small
-  \printfield{title}%
+  \href{\thefield{url}}{\printfield{title}}%
   \newblock%
   \printnames{author}%
   \par%
@@ -818,7 +818,7 @@
     \footnotesize\addfontfeature{Color=black}\itshape%
     \printfield{booktitle}%
     \setunit*{\addcomma\space}%
-    \href{\thefield{url}}{\printfield{note}}%
+    \printfield{note}%
     \setunit*{\addcomma\space}%
     \printfield{year}%
     \setunit{\addcomma\space}%

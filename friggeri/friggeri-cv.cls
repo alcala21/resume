@@ -301,7 +301,7 @@ BoldItalicFont=texgyreheros-bolditalic.otf
     \footnotesize\addfontfeature{Color=lightgray}\itshape%
     \printfield{booktitle}%
     \setunit*{\addcomma\space}%
-    \printfield{note}%
+    \href{\thefield{url}}{\printfield{note}}%
     \setunit*{\addcomma\space}%
     \printfield{year}%
     \setunit{\addcomma\space}%
