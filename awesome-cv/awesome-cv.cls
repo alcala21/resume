@@ -615,25 +615,42 @@
 % Usage: \cventry{<position>}{<title>}{<location>}{<date>}{<description>}
 \newcommand*{\cventry}[5]{%
 \begin{minipage}{\textwidth}
-  \vspace{-2.0mm}
+  % \vspace{-2.0mm}
   \setlength\tabcolsep{0pt}
   \setlength{\extrarowheight}{0pt}
   \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 8cm} R{4cm} R{4cm}}
       \entrytitlestyle{#1} & \entrylocationstyle{#2} & \entrydatestyle{#3} \\
       \entrypositionstyle{#4} &  & \\
     \multicolumn{3}{L{\textwidth}}{\descriptionstyle{
-    \begin{minipage}{\textwidth}
+    % \begin{minipage}{\textwidth}
     #5
-    \end{minipage}
+    % \end{minipage}
     }}
   \end{tabular*}%
   \end{minipage}
 }
 
+% % Define an entry of cv information
+% % Usage: \cventry{<position>}{<title>}{<location>}{<date>}{<description>}
+% \newcommand*{\cventry}[5]{%
+%   \vspace{-2.0mm}
+%   \setlength\tabcolsep{0pt}
+%   \setlength{\extrarowheight}{0pt}
+%   \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 4.5cm} R{4.5cm}}
+%     \ifempty{#2#3}
+%       {\entrypositionstyle{#1} & \entrydatestyle{#4} \\}
+%       {\entrytitlestyle{#2} & \entrylocationstyle{#3} \\
+%       \entrypositionstyle{#1} & \entrydatestyle{#4} \\}
+%     \multicolumn{2}{L{\textwidth}}{\descriptionstyle{#5}}
+%   \end{tabular*}%
+% }
+
+
+
 % Define an environment for multiple positions in a company
 \newcommand*{\cvmultientry}[4]{%
   \begin{minipage}{\textwidth}
-  \vspace{-2.0mm}
+  % \vspace{-2.0mm}
   \setlength\tabcolsep{0pt}
   \setlength{\extrarowheight}{-20pt}
   \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 8cm} R{4cm} R{4cm}}
