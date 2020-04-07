@@ -921,7 +921,11 @@
   \begin{refsection}
     \newrefcontext[sorting=chronological]%
     \nocite{*}
-    \printbibliography[type={#1}, title={#2}, heading=bibheading]
+    \def\temp{#2}\ifx\temp\empty
+      \printbibliography[type={#1}, heading=none]
+    \else
+      \printbibliography[type={#1}, title={#2}, heading=bibheading]
+    \fi
   \end{refsection}
 }
 
