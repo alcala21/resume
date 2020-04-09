@@ -207,7 +207,7 @@
 \newcommand*{\entrypositionstyle}[1]{{\fontsize{9pt}{1em}\bodyfont\scshape\color{graytext} #1}}
 \newcommand*{\entrydatestyle}[1]{{\fontsize{9pt}{1em}\bodyfontlight\bfseries\color{darktext} #1}}
 \newcommand*{\entrylocationstyle}[1]{{\fontsize{8pt}{1em}\bodyfontlight\slshape\color{darktext} #1}}
-\newcommand*{\descriptionstyle}[1]{{\fontsize{9pt}{1em}\bodyfontlight\upshape\color{text} #1}}
+\newcommand*{\descriptionstyle}[1]{{\fontsize{9pt}{0.5em}\bodyfontlight\upshape\color{text} #1}}
 % \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 4.5cm} R{4.5cm}}
 % #1
 % \end{tabular*}
@@ -218,7 +218,7 @@
 \newcommand*{\subentrypositionstyle}[1]{{\fontsize{9pt}{1em}\bodyfont\scshape\color{graytext} #1}}
 \newcommand*{\subentrydatestyle}[1]{{\fontsize{8pt}{1em}\bodyfontlight\bfseries\color{darktext} #1}}
 \newcommand*{\subentrylocationstyle}[1]{{\fontsize{8pt}{1em}\bodyfontlight\slshape\color{darktext} #1}}
-\newcommand*{\subdescriptionstyle}[1]{{\fontsize{9pt}{1em}\bodyfontlight\upshape\color{text} #1}}
+\newcommand*{\subdescriptionstyle}[1]{{\fontsize{9pt}{0.5em}\bodyfontlight\upshape\color{text} #1}}
 % \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 4.5cm} R{4.5cm}}
 % #1
 % \end{tabular*}
@@ -614,50 +614,26 @@
 % Define an entry of cv information
 % Usage: \cventry{<position>}{<title>}{<location>}{<date>}{<description>}
 \newcommand*{\cventry}[5]{%
-\begin{minipage}{\textwidth}
   % \vspace{-2.0mm}
   \setlength\tabcolsep{0pt}
   \setlength{\extrarowheight}{0pt}
-  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 8cm} R{4cm} R{4cm}}
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 6cm} C{3cm} R{3cm}}
       \entrytitlestyle{#1} & \entrylocationstyle{#2} & \entrydatestyle{#3} \\
       \entrypositionstyle{#4} &  & \\
-    \multicolumn{3}{L{\textwidth}}{\descriptionstyle{
-    % \begin{minipage}{\textwidth}
-    #5
-    % \end{minipage}
-    }}
+    \multicolumn{3}{L{\textwidth}}{\descriptionstyle{#5}}
   \end{tabular*}%
-  \end{minipage}
+  \vspace{2mm}
 }
-
-% % Define an entry of cv information
-% % Usage: \cventry{<position>}{<title>}{<location>}{<date>}{<description>}
-% \newcommand*{\cventry}[5]{%
-%   \vspace{-2.0mm}
-%   \setlength\tabcolsep{0pt}
-%   \setlength{\extrarowheight}{0pt}
-%   \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 4.5cm} R{4.5cm}}
-%     \ifempty{#2#3}
-%       {\entrypositionstyle{#1} & \entrydatestyle{#4} \\}
-%       {\entrytitlestyle{#2} & \entrylocationstyle{#3} \\
-%       \entrypositionstyle{#1} & \entrydatestyle{#4} \\}
-%     \multicolumn{2}{L{\textwidth}}{\descriptionstyle{#5}}
-%   \end{tabular*}%
-% }
-
-
 
 % Define an environment for multiple positions in a company
 \newcommand*{\cvmultientry}[4]{%
-  \begin{minipage}{\textwidth}
   % \vspace{-2.0mm}
   \setlength\tabcolsep{0pt}
   \setlength{\extrarowheight}{-20pt}
-  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 8cm} R{4cm} R{4cm}}
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 6cm} C{3cm} R{3cm}}
       \entrytitlestyle{#1} & \entrylocationstyle{#2} & \entrydatestyle{#3} \\
-    \multicolumn{3}{L{\textwidth}}{\descriptionstyle{#4}}
-  \end{tabular*}
-  \end{minipage}
+    \multicolumn{3}{L{\textwidth}}{#4}
+  \end{tabular*}%
   \vspace{2mm}
 }
 
@@ -671,8 +647,8 @@
 \newcommand*{\cvsubentry}[4]{%
   \vspace{0.0mm}
   \setlength\tabcolsep{0pt}
-  \setlength{\extrarowheight}{5pt}
-  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 8cm} R{4cm} R{4cm}}
+  \setlength{\extrarowheight}{0pt}
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 6cm} C{3cm} R{3cm}}
  \subentrypositionstyle{#1} & \subentrylocationstyle{#2} &\subentrydatestyle{#3} \\
  \multicolumn{3}{L{\textwidth}}{\subdescriptionstyle{#4}}
   \end{tabular*}%
@@ -716,9 +692,11 @@
 
 % Define an environment for cvitems(for cventry)
 \newenvironment{cvitems}{%
-  \vspace{-4.0mm}
+  \vspace{-2mm}
   \begin{justify}
-  \begin{itemize}[leftmargin=2ex, nosep, noitemsep]
+  % \begin{itemize}[leftmargin=2ex, nosep, noitemsep]
+  \begin{itemize}[leftmargin=2ex, nosep]
+    \setlength\itemsep{0.5em}
     \setlength{\parskip}{0pt}
     \renewcommand{\labelitemi}{\bullet}
 }{%
