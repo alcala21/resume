@@ -1,0 +1,209 @@
+Carlos Felipe Alcala Perez
+Data Scientist
+
+Contact:
+1406 E. Russell Ave, Upper Milwaukee, Wisconsin 53207, USA
+ +1 (414) 426 6814
+Email: alcala21@gmail.com
+https://www.linkedin.com/in/alcala21/
+https://github.com/alcala21
+
+Education:
+2007–2011: Doctor of Philosophy in Chemical Engineering. University of Southern California. Los Angeles, California.
+2005–2007: Master of Science in Chemical Engineering. The University of Texas at Austin. Austin, Texas.
+1999–2004: Bachelor of Science in Chemical Engineering. Technological Institute of Ciudad Madero. Ciudad Madero, Mexico Summa Cum Laude.
+
+Experience:
+Full time:
+2017 – 2020: Johnson Controls International - Milwaukee, Wisconsin.
+Principal Research Engineer.
+• I worked in the development and implementation of advanced methods to improve the efficiency of heating, ventilation and air conditioning (HVAC) systems. I used traditional and modern optimization methods, as well as artificial intelligence and machine learning methods to achieve the business goals of the projects. I was also involved in the transfer of newly developed technology into products and applications.
+
+2015 – 2017: Johnson Controls International - Milwaukee, Wisconsin.
+Senior Research Engineer
+• I developed methods for monitoring the performance of PID con- trollers, to detect steady state operation of HVAC equipment, and reduce energy consumption in wireless thermostats while keep- ing acceptable comfort standards. I used advanced mathematical tools to develop these methods, as well as artificial intelligence, machine learning and traditional statistical methods.
+
+2013 – 2015: Johnson Controls BE Servicios - Mexico City, Mexico.
+Senior Research Engineer
+• Developed data-driven methods for fault detection and diagnosis in connected chillers.
+
+2011 – 2013: Johnson Controls, Inc Milwaukee, Wisconsin.
+Senior Research Engineer
+• Developed a method for adaptive sampling of PID controllers.
+
+Internships
+2010: The Dow Chemical Company - Freeport, Texas
+Summer Research Intern
+•Developed an Excel application for multivariate statistical monitoring of continuous and batch processes.
+
+2006, 2007, 2009: Capstone Technology - Seattle, Washington 2007
+Summer Engineering Intern
+•Developed a multivariate image analysis application to monitor combustion efficiency in furnaces.
+• Developed a PLS application for statistical modeling of chemical processes.
+• Developed a PCA application for detection and diagnosis of sensor and process faults.
+
+2008: NMC North Microelectronics - Beijing, China
+Summer Engineering Intern
+• Developed a PCA application for monitoring the operation of a semiconductor manufacturing process.
+
+Languages
+Spanish (native)
+English (fluent)
+
+Programming:
+R, Python, Matlab, Modelica, LaTeX, RMarkdown, Bash
+
+Applications:
+Simulink, Dymola, RStudio, Git, Github, Visual Studio Code, Office 365
+
+Certifications:
+•Computational Thinking using Python
+•Statistics with R
+•Machine Learning
+•Data Science
+
+Expertise:
+Multivariate Statistical Analysis, Machine Learning, Control, Optimization and Monitoring of HVAC Systems, Data Analytics and Visualization, Research and Application Development
+
+Awards:
+2015: 1st Place - 2015 BE TechChallenge- Building Efficiency, Johnson Controls Inc.
+I won the annual company-wide innovation competition at JCI.
+2007: Roberto Rocca Fellowship - University of Southern California
+I was awarded a fellowship from the Roberto Rocca Education Program to do my PhD at USC.
+2005: Fulbright Scholarship - University of Texas at Austin
+I was awarded a Fulbright scholarship to do my Masters degree at UT Austin.
+
+Publications:
+Patents:
+
+•Building management system with voting-based fault detection and diagnostics
+Carlos F. Alcala Perez
+US Patent 10747187, 2020
+
+•Building management system with predictive diagnostics
+Carlos F. Alcala Perez and Samuel F. Hamilton
+US Patent 10700942, 2020
+
+•Newton-based extremum-seeking control system
+ Timothy I Salsbury and Kirk H Drees, John M House and Carlos F. Alcala Perez
+ US Patent 10824127, 2020
+
+•Systems and methods for steady state detection
+Carlos F. Alcala Perez
+US Patent 10,495,334, 2019
+
+•Control system with asynchronous wireless data transmission
+Carlos F. Alcala Perez, Kirk H. Drees
+US Patent 10333810, 2019
+
+•Control system with response time estimation and automatic operating parameter adjustment
+Carlos F. Alcala Perez, Timothy I. Salsbury
+US Patent 10324424, 2019
+
+•Control system with response time estimation
+Carlos F. Alcala Perez, Timothy I. Salsbury
+US Patent 10317856, 2019
+
+•Building climate control system with decoupler for independent control of interacting feedback loops
+Timothy I. Salsbury, Carlos F. Alcala Perez, John M. House, Christopher R. Amundson
+US Patent 10253997, 2019
+
+•Feedback control system with normalized performance indices for setpoint alarming
+Timothy I. Salsbury, Carlos F. Alcala Perez, Michael J. Ajax
+US Patent 10197977, 2019
+
+•Normalized indices for feedback control loops
+Timothy I. Salsbury, Carlos F. Alcala Perez
+US Patent 9920943, 2018
+
+•System and method for output compensation in flow sensors using pulse width modulation
+Carlos F. Alcala Perez, Kirk H Drees, Timothy I Salsbury
+US Patent App. 15/908,041, 2018
+
+•Building control system with decoupler for independent control of interacting feedback loops
+Timothy I Salsbury, Carlos F. Alcala Perez, John M House, Christopher R Amundson
+US Patent 10253997, 2019
+
+•Thermostat with efficient wireless data transmission
+Timothy I Salsbury, Carlos F. Alcala Perez, Homero L Noboa
+US Patent 10739028, 2020
+
+•Systems and methods for automatically creating and using adaptive pca models to control building equipment
+Carlos F. Alcala Perez
+US Patent App. 15/279,336, 2016
+
+•Systems and methods for adaptive sampling rate adjustment
+Carlos F. Alcala Perez, Timothy I. Salsbury
+US Patent 9395708, 2016
+
+
+Journal Papers:
+
+•A method for setpoint alarming using a normalized index
+Carlos F. Alcala, Timothy I. Salsbury
+Control Engineering Practice 60.3 (2017) pp. 1–6. 2017
+
+•An extremum-seeking control method driven by input–output correlation
+Timothy I Salsbury, John M House, Carlos F Alcala, Yaoyu Li
+Journal of Process Control 58 (2017) pp. 106–116. Elsevier, 2017
+
+•Generalized reconstruction-based contributions for output-relevant fault diagnosis with application to the tennessee eastman process
+Gang Li, Carlos F. Alcala, S. Joe Qin, Donghua Zhou
+Control Systems Technology, IEEE Transactions on 19.5 (Sept. 2011) pp. 1114–1127. 2011
+
+•Analysis and generalization of fault diagnosis methods for process monitoring
+Carlos F. Alcala, S. Joe Qin
+Journal of Process Control 21.3 (2011) pp. 322–330. 2011
+
+•Reconstruction-based contribution for process monitoring with kernel principal com- ponent analysis
+Carlos F. Alcala, S. Joe Qin
+Industrial & Engineering Chemistry Research 49.17 (2010) pp. 7849–7857. 2010
+
+•Reconstruction-based contribution for process monitoring
+Carlos F. Alcala, S. Joe Qin
+Automatica 45.7 (2009) pp. 1593–1600. 2009
+
+Conference Papers:
+•Self-optimizing Control of an Air Source Heat Pump
+Zhongfan Zhao, Yaoyu Li, Timothy I Salsbury, Carlos F Alcala, John M House 2019 American Control Conference (ACC), 2019
+
+•Identification of a Self-Optimizing Control Structure from Normal Operating Data
+Carlos F Alcala, Timothy I Salsbury, John M House 2019 American Control Conference (ACC), 2019
+
+•Reduction of Transmissions in Wireless Thermostats with Send-on-Delta Sampling and a Deadband Filter
+C. F. Alcala, T. I. Salsbury
+Proceedings of the 2018 Annual American Control Conference (ACC), 2018
+
+•Decoupling Method for PI Controllers via Setpoint Modification Applied to HVAC Sys- tems
+Timothy I Salsbury, John M House, Carlos F Alcala ASME 2018 Dynamic Systems and Control Conference, 2018
+
+•Reduction of Transmissions in Wireless Thermostats with Send-on-Delta Sampling and a Deadband Filter
+Carlos F Alcala, Timothy I Salsbury
+2018 Annual American Control Conference (ACC), 2018
+
+•Decoupling Method for PI Controllers via Setpoint Modification Applied to HVAC Sys- tems
+Timothy I. Salsbury, John M. House, Carlos F. Alcala Proceedings of the Dynamic Systems and Control Conference, 2018
+
+•Model Selection for Predicting the Return Time from Night Setback
+John E Seem, John M House, Carlos F Alcala
+Proceedings of the International High Performance Buildings Conference, 2016
+
+•Two new normalized EWMA-based indices for control loop performance assessment
+Timothy I. Salsbury, Carlos F. Alcala
+Proceedings of the American Control Conference (ACC), 2015
+
+•Monitoring of dynamic processes with subspace identification and principal compo- nent analysis
+Ricardo Dunia Carlos F. Alcala, S. Joe Qin
+Proceedings of the 8th IFAC International Symposium on Fault Detection, Supervision and Safety of Technical Processes, 2012, Mexico City, Mexico
+
+•Unified analysis of diagnosis methods for process monitoring
+Carlos F. Alcala, S. Joe Qin
+Proceedings of the 7th IFAC International Symposium on Fault Detection, Supervision and Safety of Technical Processes, 2009, Barcelona, Spain
+
+•Unification of contribution analysis for process monitoring
+Carlos F. Alcala, S. Joe Qin
+Proceedings of the 2008 AIChE Annual Meeting, 2008, Philadelphia, USA
+
+•Reconstruction-based contribution for process monitoring
+Carlos Alcala, S. Joe Qin
+Proceedings of the 17th IFAC World Congress, 2008, Seoul, Korea

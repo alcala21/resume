@@ -1,0 +1,139 @@
+Carlos Felipe Alcala Perez
+Data Scientist
+
+Contact:
+1406 E. Russell Ave, Upper Milwaukee, Wisconsin 53207, USA
+ +1 (414) 426 6814
+Email: alcala21@gmail.com
+https://www.linkedin.com/in/alcala21/
+https://github.com/alcala21
+
+Expertise:
+Multivariate Statistical Analysis; Machine Learning; Control, Optimization and Monitoring of HVAC Systems; Data Analytics and Visualization; Research and Application Development
+
+Experience:
+Full time:
+2017 – 2020: Johnson Controls International - Milwaukee, Wisconsin.
+Principal Research Engineer.
+• I worked in the development and implementation of advanced methods to improve the efficiency of heating, ventilation and air conditioning (HVAC) systems. I used traditional and modern optimization methods, as well as artificial intelligence and machine learning methods to achieve the business goals of the projects. I was also involved in the transfer of newly developed technology into products and applications.
+
+2015 – 2017: Johnson Controls International - Milwaukee, Wisconsin.
+Senior Research Engineer
+• I developed methods for monitoring the performance of PID con- trollers, to detect steady state operation of HVAC equipment, and reduce energy consumption in wireless thermostats while keep- ing acceptable comfort standards. I used advanced mathematical tools to develop these methods, as well as artificial intelligence, machine learning and traditional statistical methods.
+
+2013 – 2015: Johnson Controls BE Servicios - Mexico City, Mexico.
+Senior Research Engineer
+• Developed data-driven methods for fault detection and diagnosis in connected chillers.
+
+2011 – 2013: Johnson Controls, Inc Milwaukee, Wisconsin.
+Senior Research Engineer
+• Developed a method for adaptive sampling of PID controllers.
+
+Internships
+2010: The Dow Chemical Company - Freeport, Texas
+Summer Research Intern
+•Developed an Excel application for multivariate statistical monitoring of continuous and batch processes.
+
+2006, 2007, 2009: Capstone Technology - Seattle, Washington 2007
+Summer Engineering Intern
+•Developed a multivariate image analysis application to monitor combustion efficiency in furnaces.
+• Developed a PLS application for statistical modeling of chemical processes.
+• Developed a PCA application for detection and diagnosis of sensor and process faults.
+
+2008: NMC North Microelectronics - Beijing, China
+Summer Engineering Intern
+• Developed a PCA application for monitoring the operation of a semiconductor manufacturing process.
+
+Education:
+2007–2011: Doctor of Philosophy in Chemical Engineering. University of Southern California. Los Angeles, California.
+2005–2007: Master of Science in Chemical Engineering. The University of Texas at Austin. Austin, Texas.
+1999–2004: Bachelor of Science in Chemical Engineering. Technological Institute of Ciudad Madero. Ciudad Madero, Mexico Summa Cum Laude.
+
+Skills:
+Programming:
+R, Python, SQL, Matlab, VBA, C#
+
+Markup:
+LaTeX, Markdown, RMarkdown
+
+Frameworks/Libraries:
+PyTorch, Tensorflow, numpy, pandas, dplyr, ggplot2, tidyverse
+
+Applications:
+Simulink, Dymola, RStudio, Docker, Git, Github, VS Code, Sublime Text, Office 365
+
+Languages
+English (fluent), Spanish (native)
+
+Certifications:
+•Computational Thinking using Python - MITx (03ee77749a44490190b0b25b24876e31)
+•Statistics with R -  Duke (UWG3PS5EXMBJ)
+•Machine Learning - U Washington (2VHFDHW5GUK6)
+•Data Science - Johns Hopkins (W9DB45S3CGDZ)
+
+Awards:
+2015: 1st Place - 2015 BE TechChallenge- Building Efficiency, Johnson Controls Inc.
+I won the annual company-wide innovation competition at JCI.
+2007: Roberto Rocca Fellowship - University of Southern California
+I was awarded a fellowship from the Roberto Rocca Education Program to do my PhD at USC.
+2005: Fulbright Scholarship - University of Texas at Austin
+I was awarded a Fulbright scholarship to do my Masters degree at UT Austin.
+
+Patents:
+
+•Building management system with voting-based fault detection and diagnostics
+Carlos F. Alcala Perez
+US Patent 10747187, 2020
+
+•Building management system with predictive diagnostics
+Carlos F. Alcala Perez and Samuel F. Hamilton
+US Patent 10700942, 2020
+
+•Thermostat with efficient wireless data transmission
+Timothy I Salsbury, Carlos F. Alcala Perez, Homero L Noboa
+US Patent 10739028, 2020
+
+•Systems and methods for steady state detection
+Carlos F. Alcala Perez
+US Patent 10,495,334, 2019
+
+•Control system with asynchronous wireless data transmission
+Carlos F. Alcala Perez, Kirk H. Drees
+US Patent 10333810, 2019
+
+•Newton-based extremum-seeking control system
+ Timothy I Salsbury and Kirk H Drees, John M House and Carlos F. Alcala Perez
+ US Patent 10824127, 2020
+
+•Control system with response time estimation and automatic operating parameter adjustment
+Carlos F. Alcala Perez, Timothy I. Salsbury
+US Patent 10324424, 2019
+
+•Control system with response time estimation
+Carlos F. Alcala Perez, Timothy I. Salsbury
+US Patent 10317856, 2019
+
+•Building climate control system with decoupler for independent control of interacting feedback loops
+Timothy I. Salsbury, Carlos F. Alcala Perez, John M. House, Christopher R. Amundson
+US Patent 10253997, 2019
+
+•Feedback control system with normalized performance indices for setpoint alarming
+Timothy I. Salsbury, Carlos F. Alcala Perez, Michael J. Ajax
+US Patent 10197977, 2019
+
+•Normalized indices for feedback control loops
+Timothy I. Salsbury, Carlos F. Alcala Perez
+US Patent 9920943, 2018
+
+•System and method for output compensation in flow sensors using pulse width modulation
+Carlos F. Alcala Perez, Kirk H Drees, Timothy I Salsbury
+US Patent 105582271, 2020
+
+•Systems and methods for automatically creating and using adaptive pca models to control building equipment
+Carlos F. Alcala Perez
+US Patent App. 15/279,336, 2016
+
+•Systems and methods for adaptive sampling rate adjustment
+Carlos F. Alcala Perez, Timothy I. Salsbury
+US Patent 9395708, 2016
+
