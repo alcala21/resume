@@ -19,15 +19,15 @@ Principal Research Engineer.
 
 2015 – 2017: Johnson Controls International - Milwaukee, Wisconsin.
 Senior Research Engineer
-• I developed methods for monitoring the performance of PID con- trollers, to detect steady state operation of HVAC equipment, and reduce energy consumption in wireless thermostats while keep- ing acceptable comfort standards. I used advanced mathematical tools to develop these methods, as well as artificial intelligence, machine learning and traditional statistical methods.
+• Developed methods for monitoring the performance of PID controllers, detection of steady state operation of HVAC equipment, and reduction of energy consumption in wireless thermostats while keeping acceptable comfort standards. Applied advanced mathematical tools  as well as artificial intelligence, machine learning and traditional statistical methods to achieve business goals.
 
 2013 – 2015: Johnson Controls BE Servicios - Mexico City, Mexico.
 Senior Research Engineer
-• Developed data-driven methods for fault detection and diagnosis in connected chillers.
+• Developed and tested data-driven methods for fault detection and diagnosis in connected chillers..
 
 2011 – 2013: Johnson Controls, Inc Milwaukee, Wisconsin.
 Senior Research Engineer
-• Developed a method for adaptive sampling of PID controllers.
+• Developed a method for adaptive sampling of PID controllers. Analyzed vast quantities of test data, and automated the report generation for these tests..
 
 Internships
 2010: The Dow Chemical Company - Freeport, Texas
